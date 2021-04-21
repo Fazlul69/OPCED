@@ -7,11 +7,16 @@ p{
     margin: 0;
     color: #08007B;
 }
-a{
+
+a:hover{
     text-decoration: none;
 }
 .learnBtn{
     background-image: linear-gradient(to right top, #de3aff, #c82aff, #af1bff, #920bff, #6e00ff);
+}
+span{
+    font-size: 55px;
+    font-weight: bold;
 }
 
 /* background part */
@@ -24,26 +29,8 @@ a{
     margin-left: -230px;
     margin-top: -68px;
 }
-/* .down-image{
-    position: relative;
-    margin-top: 345px;
-    margin-left: -305px;
-    transform: rotate(30deg);
-    /* border-radius: 0px 1px 1100px 450px; */
-    /* overflow: hidden; */
-    
-    /* background-image: url("../images/down.png");
-    background-repeat: no-repeat;
-    width: 365px;
-    height: 250px;
-    position: absolute;
-    bottom: 1px;
-    left: -135px;
-    transform: rotate(0deg);
-    clip: rect(0px,390px,245px,0px); */
  
 .top-right{
-    /* background-image: url("../images/top_right.png"); */
     background-repeat: no-repeat;
     width: 1122px;
     height: 936px;
@@ -129,10 +116,7 @@ a{
     margin-left: 45px;
     font-size: 25px;
 }
-span{
-    font-size: 55px;
-    font-weight: bold;
-}
+
 #future .learnBtn{
     margin-top: 25px;
     margin-left: 40px;
@@ -161,10 +145,6 @@ span{
     margin-left: 45px;
     font-size: 25px;
 }
-span{
-    font-size: 55px;
-    font-weight: bold;
-}
 #visual .learnBtn{
     margin-top: 25px;
     margin-left: 40px;
@@ -185,10 +165,7 @@ span{
     margin-left: 45px;
     font-size: 25px;
 }
-span{
-    font-size: 55px;
-    font-weight: bold;
-}
+
 #ownBrand .learnBtn{
     margin-top: 25px;
     margin-left: 40px;
@@ -222,10 +199,6 @@ span{
     margin-top: 100px;
     margin-left: 45px;
     font-size: 25px;
-}
-span{
-    font-size: 55px;
-    font-weight: bold;
 }
 #augmented .learnBtn{
     margin-top: 25px;
@@ -269,10 +242,6 @@ span{
     margin-top: 100px;
     margin-left: 45px;
     font-size: 40px;
-}
-span{
-    font-size: 55px;
-    font-weight: bold;
 }
 #brand .learnBtn{
     margin-top: 25px;
