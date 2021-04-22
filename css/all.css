@@ -1,6 +1,6 @@
 
 body{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 p{
     margin: 0;
@@ -77,6 +77,47 @@ img.v9-img {
     color: red !important;
     transform: rotate(8deg);
 }
+
+
+/* Own Brnad */
+
+.partP{
+    margin-top: 300px;
+    font-size: 40px;
+}
+.partImage{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.partB{
+    font-size: 20px;
+    margin-top: 250px;
+    color: #000;
+}
+#part1{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background: url("../images/mobile/d1.png") 0% -10% no-repeat, url("../images/mobile/d2.png") 45% 103% no-repeat, url("../images/mobile/d3.png") 110% 135% no-repeat;
+}
+#part2,#part3{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+#part3 .d4{
+    margin-top: -220px;
+    margin-left: -135px;
+    width: 235px;
+    transform: rotate(7deg);
+}
+#part3 .d5{
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
+
+
+
+
 /* //////////////market///////////////// */
 
 #market{
@@ -163,3 +204,4 @@ img.v9-img {
     margin-left: 125px;
     margin-bottom: 20px;
 }
+
